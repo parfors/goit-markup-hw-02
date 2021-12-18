@@ -76,6 +76,7 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
+  cursor: pointer;
 }
 /* ------------------------FEATURES--------------------------------- */
 .features-title {
@@ -186,6 +187,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
