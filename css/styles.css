@@ -23,7 +23,9 @@ body {
 .hedaer-logo-part {
   color: #000000;
 }
-
+.header-list {
+  list-style: none;
+}
 .nav-link:hover,
 .nav-link:focus,
 .nav-contact-link:hover,
@@ -83,6 +85,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+.features-list {
+  list-style: none;
 }
 .features-text {
   font-family: Roboto;
@@ -150,7 +155,9 @@ body {
 .footer-logo-part {
   color: var(--accent-color);
 }
-
+.footer-list {
+  list-style: none;
+}
 .footer-address-link {
   font-weight: normal;
   font-style: normal;
@@ -189,7 +196,8 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-.portfolio-list {
+.portfolio-list,
+.button-list {
   list-style: none;
 }
 .example-title {
