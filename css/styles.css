@@ -41,13 +41,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .nav-contact-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primeri-text-color);
+  text-decoration: none;
 }
 /* ------------------------HERO--------------------------------- */
 .hero {
@@ -80,7 +82,7 @@ body {
 }
 /* ------------------------FEATURES--------------------------------- */
 .features-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -92,8 +94,6 @@ body {
 }
 .features-text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -115,7 +115,7 @@ body {
   background-color: #f5f4fa;
 }
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -134,7 +134,6 @@ body {
   color: var(--title-text-color);
 }
 .member-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -143,6 +142,9 @@ body {
 /* ------------------------FOOTER--------------------------------- */
 .footer {
   background-color: #2f303a;
+}
+address {
+  font-style: normal;
 }
 .logo-footer {
   font-family: Raleway;
@@ -160,27 +162,25 @@ body {
   list-style: none;
 }
 .footer-address-link {
-  font-weight: normal;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-contact-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondery-footer-color);
+  text-decoration: none;
 }
 .footer-contact-link:hover,
 .footer-contact-link:focus {
   color: #ffffff;
 }
 /* ------------------------PORTFOLIO--------------------------------- */
-.portfolio-button {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -189,28 +189,27 @@ body {
   color: var(--title-text-color);
   cursor: pointer;
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-.portfolio-button.current {
+.filter-button.current {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 .portfolio-list,
-.button-list {
+.filter {
   list-style: none;
 }
-.example-title {
-  font-weight: bold;
+.portfolio-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.example-text {
-  font-weight: normal;
+.portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
